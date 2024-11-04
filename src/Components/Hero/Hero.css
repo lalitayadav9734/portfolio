@@ -1,0 +1,40 @@
+
+#hero{
+    background-color: linear-gradient(to right, #0074d9, #005bb5);
+    color: #fff;
+    padding: 5rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: fadeIn 1.5s ease-in-out;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #ff851b;
+}
+
+.cta-button {
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background-color: #ff851b;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff6a1b;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

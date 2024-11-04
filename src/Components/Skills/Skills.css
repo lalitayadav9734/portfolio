@@ -1,0 +1,35 @@
+/* Skills.css */
+
+#skills {
+    padding: 4rem 2rem;
+    background-color: #f5f7fa;
+    text-align: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.skill {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+}
+
+.skill h3 {
+    color: #0074d9;
+    margin-bottom: 0.5rem;
+}
+
+.skill p {
+    color: #666;
+}
